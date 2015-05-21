@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 # Bootstrap 3 Sass gem
 gem 'bootstrap-sass', '~> 3.3.4'
 
+# Get Kaminari gem for pagination
+gem 'kaminari'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
 
