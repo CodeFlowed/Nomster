@@ -6,6 +6,9 @@ gem 'bootstrap-sass', '~> 3.3.4'
 # Get Kaminari gem for pagination
 gem 'kaminari'
 
+# Get SimpleForm gem for our forms
+gem 'simple_form'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
 
