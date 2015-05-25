@@ -9,6 +9,10 @@ gem 'kaminari'
 # Get SimpleForm gem for our forms
 gem 'simple_form'
 
+gem 'devise', '>= 3.2.4'
+
+#####
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
 
