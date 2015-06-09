@@ -9,7 +9,14 @@ gem 'kaminari'
 # Get SimpleForm gem for our forms
 gem 'simple_form'
 
+# Get Devise gem for user authentication and profiles
 gem 'devise', '>= 3.2.4'
+
+# Get Geocode for integrating Google Maps with our application
+gem 'geocoder'
+
+# Get Figaro gem to create a secure way of storing sensitive api key's and such
+gem 'figaro', '>= 1.0.0'
 
 #####
 
