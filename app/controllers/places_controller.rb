@@ -13,7 +13,7 @@ class PlacesController < ApplicationController
 	end
 
 	def create
-		@place = current_user.places.create(place_params)
+		@place = current_user.places.create(place_params.merge(:user => current_user))
 		if @place.valid?
 			redirect_to root_path
 		else
