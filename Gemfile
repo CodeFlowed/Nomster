@@ -18,6 +18,12 @@ gem 'geocoder'
 # Get Figaro gem to create a secure way of storing sensitive api key's and such
 gem 'figaro', '>= 1.0.0'
 
+# Get CarrierWave gem to give photo uploading capability to the app
+gem 'carrierwave'
+
+# Get Fog gem to enable CarrierWave to talk with Amazon S3
+gem 'fog', '~> 1.3.1'
+
 #####
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
