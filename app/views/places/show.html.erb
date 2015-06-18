@@ -32,10 +32,6 @@
 
 	<% if @place.photos.present? %>
 		<div class="gallery">
-			<h3 class="pull-left">Photos</h3>
-
-			<div class="clear"></div>
-
 			<figure class="gallery__image-wrapper">
 				<% @place.photos.each do |photo| %>
 					<%= image_tag photo.picture, :class => 'img-responsive, center-block' %>
@@ -47,6 +43,7 @@
 				<% end %>		
 			</figure>
 		</div>
+
 		<hr>
 	<% end %>
 
@@ -73,7 +70,7 @@
 		</script>
 
 		<div id="map-canvas"></div>
-	<!-- <% end %> -->
+	<% end %>
 
 	<br>
 
