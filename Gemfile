@@ -24,6 +24,8 @@ gem 'carrierwave'
 # Get Fog gem to enable CarrierWave to talk with Amazon S3
 gem 'fog', '~> 1.3.1'
 
+gem 'rspec-rails'
+
 #####
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
