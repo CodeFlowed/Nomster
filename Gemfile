@@ -24,7 +24,19 @@ gem 'carrierwave'
 # Get Fog gem to enable CarrierWave to talk with Amazon S3
 gem 'fog', '~> 1.3.1'
 
-gem 'rspec-rails'
+# Get factory_girl_rails gem to make working with sample data easier
+gem "factory_girl_rails", "~> 4.0"
+
+# Get table print gem so I can get pretty printouts of db rows
+gem "table_print"
+
+# Get rspec-rails to use as a testing framework
+# group :development, :test do
+#   gem 'rspec-rails', '~> 3.0'
+# end
+
+# 
+#gem 'byebug'
 
 #####
 
